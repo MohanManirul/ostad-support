@@ -1,0 +1,19 @@
+Sunday Tuesday rate off
+
+for html code
+live server
+html end tag label
+auto close tag
+auto rename tags
+code spell checker
+pretier
+
+emmet shortcut
+
+kinds of tags
+1. text formating tags
+2. multimedia tag (iframe) 
+3. script tag
+4. structural tags
+
+open graph tag
