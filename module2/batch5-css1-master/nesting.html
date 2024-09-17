@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting</title>
+    <style>
+        p a{
+            color: #FF5733;
+            text-decoration: none;
+        }
+
+        p:hover{
+            /* color:brown; */
+            /* font-size:32px; */
+        }
+
+        p a:hover{
+            color: #420be8;
+        }
+
+        button{
+            background-color: #FFC300;
+            color: #222222;
+            font-size: 24px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: #FF5733;
+            color: white;
+            cursor:pointer;
+        }
+
+        /* ul a{
+            color: #FF5733;
+            text-decoration: none;
+        } */
+
+        .label1{
+            background-color: #8EACCD;
+            padding-left:5px;
+            padding-right:5px;
+            color: white;
+            border-radius:5px;
+        }
+
+        .label2{
+            background-color: #e10808;
+            padding-left:5px;
+            padding-right:5px;
+            color: white;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptates ex dolorum non, explicabo amet repellendus a dicta <span class=label2>soluta</span>, esse provident sequi deserunt <span class="label1">placeat</span> quis mollitia maxime nisi expedita vel in doloribus nostrum quo ratione. Laudantium consequuntur minima illum necessitatibus.
+
+        <a href="#">Click here</a>
+    </p>
+
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+    </ul>
+
+    <button>
+      Button
+    </button>
+</body>
+</html>

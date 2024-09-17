@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-between;
+        }
+
+        p.logo{
+            font-size:24px;
+            color: #428a4e;
+            font-weight: bold;
+            padding-left:20px;
+        }
+
+        ul.menu{
+            display:flex;
+            list-style-type: none;
+            align-items: center;
+            gap: 20px;
+            font-size: 12px;
+        }
+
+        p.action{
+            display:flex;
+            align-items: center;
+            font-size:12px;
+            margin-right:20px;
+        }
+        main{
+            display:flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .right{
+            width:50%;
+        }
+
+        span.green{
+            color: #428a4e;
+        }
+
+        .left h1{
+            line-height: 50px;
+            font-size:48px;
+        }
+
+        .left p{
+            margin-top:40px;
+            margin-bottom:40px;
+            color: #555555;
+            font-size:14px;
+        }
+
+        .left button{
+            width:100px;
+            background-color: #d94d62;
+            color: white;
+            /* padding-left:20px;
+            padding-right:20px; */
+            padding-top:10px;
+            padding-bottom:10px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size:12px;
+        }
+        .copy{
+            padding-top:40px;
+        }
+
+        .right{
+            background-image: url('assets/images/bg1.jpg');
+            background-size: cover;
+            /* background-position: center; */
+        }
+        .action {
+            margin-left: auto; /* Pushes .action to the far right */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p class="logo">
+            Bonsai
+        </p>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Features</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+        <p class="action">
+            Login
+        </p>
+    </nav>
+    <main>
+        <div class="left">
+            <h1>
+                <span class="green">Wellness</span> should be everyone's Passion
+            </h1>
+            <p>Finally, the all-in-one practice management tool you've been looking</p>
+            <button>
+              Read More
+            </button>
+            <p class="copy">illustration copyright</p>
+        </div>
+        <div class="right"></div>
+    </main>
+</body>
+</html>
