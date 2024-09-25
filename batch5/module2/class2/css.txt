@@ -1,0 +1,10 @@
+A sticky element toggles between relative and fixed, 
+Note: You must specify at least one of top, right, bottom or left for sticky positioning to work.
+
+relative vs absolute
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_left
+
+div p descendant selector ( বংশধর , বাপের ছেলে মেয়ে , নাতি  সহ  )
+div > p child selector ( বাপের ছেলে মেয়ে , নাতি নয়) 
+div ~ p general sibling selector ( সাধারণ ভাইবোন )
+div + p Adjacent Sibling ( বাপ চাচার বড় ছেলে বা মেয়ে ) 

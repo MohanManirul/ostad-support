@@ -1,0 +1,29 @@
+:root{
+    --bg-color:#e0d724;
+    --f-size:10px;
+    --w-space:40px;
+    --l-space:10px;
+}
+
+body{
+    background-color:var(--bg-color)
+}
+
+.a{
+  font-size:var(--f-size);
+  word-spacing: var(--w-space);
+  letter-spacing: var(--l-space);
+  text-decoration: overline;
+}
+
+
+
+
+.my-div{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    overflow: scroll;
+    font-family: "Pacifico", cursive;
+    line-height: 70%;
+}

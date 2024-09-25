@@ -1,0 +1,63 @@
+Question : The Bootstrap 5 grid system has six classes:
+
+grid with row
+https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_grid_ex_structure&stacked=h
+
+col 			-->  create equal width columns for all devices , use korle sob device e soman ratio hobe (https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_grid_ex_structure&stacked=h)
+
+col-3 & col-9		--> screen size zai hok na keno ratio 25% by 75% hobe
+
+col-sm-3 & col-sm-9 	--> screen size small device to learger hole ratio 25% by 75% hobe , 
+				screen size small device er ceye choto hole nice nice asbe
+
+col-sm 			--> create equal width columns for all devices
+
+
+XSmall 			-->	less than 576px
+Small device 		-->	576 pixels to 767 pixels.
+Medium devices 		-->	768 pixels to 991 pixels.
+Large devices 		-->	992 pixels to 1199 pixels.
+Extra large devices 	-->	1200 pixels and above	
+
+	<div class="row">
+		<div class="col">1 of 2</div>
+      		<div class="col">2 of 2</div>
+    	</div>
+	create equal width columns for all devices .
+------------------------------------------------------------
+	<div class="row">
+      		<div class="col-3 bg-primary">25%</div>
+      		<div class="col-9 bg-dark">75%</div>
+    	</div>
+	create 25%/75% split on all devices.
+------------------------------------------------------------
+	<div class="row">
+        	<div class="col-sm-3">25%</div>
+        	<div class="col-sm-9">75%</div>
+    	</div>
+	result in a 25%/75% split on small, medium, large, xlarge and xxlarge devices (576px and above). On extra small devices, it will stack (100% width).
+-----------------------------------------------------------
+	<div class="row">
+        	<div class="col-md-6"> Lorem </div>
+        	<div class="col-md-6"> Sed </div>
+    	</div>
+ 	result in a 50%/50% split on medium (and large, xlarge, xxlarge) devices. On small & extra small devices, it will automatically stack (100%).
+------------------------------------------------------------
+
+	 <div class="row">
+      		<div class="col-lg-3 ">Lorem</div>
+      		<div class="col-lg-9 ">Sed</div>
+    	</div>
+	result in a 25%/75% split on large, xlarge and xxlarge devices. On medium ,small & extra small devices, it will automatically stack (100%).
+-------------------------------------------------------------
+ 	<div class="row">
+      		<div class="col-xl-3 ">Lorem</div>
+      		<div class="col-xl-9 ">Sed</div>
+    	</div>
+	result in a 25%/75% split on xlarge and xxlarge devices. On  large, medium ,small & extra small devices, it will automatically stack (100%).
+-------------------------------------------------------------
+ 	<div class="row">
+      		<div class="col-xxl-3 ">Lorem</div>
+      		<div class="col-xxl-9 ">Sed</div>
+    	</div>
+	result in a 25%/75% split on and xxlarge devices. On xlarge, large, medium, small & extra small devices, it will automatically stack (100%).

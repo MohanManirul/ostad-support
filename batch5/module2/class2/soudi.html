@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .container {
+        position: relative;
+        border: 2px solid #f10808;
+        height: 800px;
+        width: 950px;
+    }
+
+    .back_image {
+        position: absolute;       
+        left: 180px;
+        top: 180px; 
+    }
+
+    .top_image {
+        position: absolute; 
+        left: 150px;
+        top: 150px;  
+    }
+
+</style>
+</head>
+<body>
+
+<h1>Overlapping elements</h1>
+
+<p>If two positioned elements overlap each other without a z-index specified,
+the element defined last in the HTML code will be shown on top:</p>
+
+<div class="container"> 
+    <div class="top_image"><img  style="height: 200px; width: 200px;" src="top_image.PNG" alt=""></div>
+    <div class="back_image"><img style="height: 200px; width: 200px;" src="back_image.webp" alt=""></div>
+</div>
+
+</body>
+</html>
+
+

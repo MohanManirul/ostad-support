@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            border: 1px solid #ccc;
+            }
+
+            .float-left {
+                float: left;
+                width: 40%;
+                background-color: lightblue;
+                margin-right: 10px;
+            }
+
+            .float-right {
+                overflow: hidden;
+                width: 40%;
+                background-color: lightgreen;
+            }
+
+            .text {
+            clear: both; /* This will prevent text from wrapping around floated elements */
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="float-left">Left Float</div>
+        <div class="float-right">Right Float</div>
+        <div class="text">This text wraps around the floated elements.</div>
+      </div>
+</body>
+</html>

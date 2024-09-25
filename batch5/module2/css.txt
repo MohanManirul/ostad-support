@@ -1,0 +1,15 @@
+overflow
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_overflow
+https://icons.getbootstrap.com/
+
+
+responsive div 
+	max-width: 500px;
+  	margin: auto;
+https://www.w3schools.com/css/tryit.asp?filename=trycss_max-width
+
+responsive image
+https://www.w3schools.com/css/css_rwd_images.asp
+
+margins to auto -- to horizontally center the element within its container
+

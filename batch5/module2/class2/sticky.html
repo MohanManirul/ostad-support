@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 2000px; /* Just for demonstration purposes */
+        }
+
+        .content {
+            height: 100px; /* Height of the content above */
+            background-color: lightgray;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 15px; /* This keeps it 5px from the top of its container */
+            margin-top: 5px; /* Adds a space of 5px below the content above */
+            background-color: green;
+            border: 2px solid #4CAF50;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="content">Content above the sticky div</div>
+            <div class="sticky">Sticky Content</div>
+        </div>
+	  
+</body>
+</html>
