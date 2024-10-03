@@ -1,0 +1,26 @@
+
+https://www.php.net/manual/en/install.windows.php
+https://windows.php.net/download
+
+PHP DevSense (vscode extension) eta thakle php intelisesnse kaj kore na
+
+https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+
+PHP DevSense
+https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+PHP PSR
+php -S localhost:8000 ./index.php
+for loop , . concatenation
+print
+printf()
+f is stand for format
+difference  printf vs echo
+
+%s = string, 
+%d == number
+%f=float
+use of printf dosomiker pore 2 ghor dekhate (10.25)
+%.2f = dosomiker por 2 ghor dekhabe
+
+php binery + devsense its ok for php code run
+https://github.com/LearnWithHasinHayder/php101-b5
