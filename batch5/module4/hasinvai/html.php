@@ -6,16 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World 123</h1>
-    <?php 
-    echo "Another Line";
-    ?>
-    <ul>
-        <?php 
-            for ($i=1; $i <= 10; $i++) { 
-                echo "<li>Item $i</li>";
-            }
-        ?>
-    </ul>
+    <h1>Hello World 123</h1>   
 </body>
 </html>
