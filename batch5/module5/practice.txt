@@ -1,0 +1,4 @@
+PHP_EOL ensures compatibility across different operating
+
+https://www.w3resource.com/php-exercises/php-for-loop-exercises.php 
+https://www.tutorialspoint.com/php/php_recursive_functions.htm
