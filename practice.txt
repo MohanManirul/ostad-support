@@ -10,3 +10,11 @@ https://www.tutorialspoint.com/php/php_recursive_functions.htm
 
 https://www.webcoachbd.com/
 
+
+https://phpdelusions.net/
+https://dataschool.com/learn-sql/
+programiz.com/sql
+sqlshack.com
+https://www.w3schools.com/sql/sql_injection.asp
+
+

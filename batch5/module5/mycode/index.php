@@ -8,4 +8,7 @@ for ($x = 0; $x <= 3; $x++) { // define total number of loops (rows), here total
     }
     echo "<br>"; // Add new line after each set of digits
 }
+
+
 ?>
+ 
