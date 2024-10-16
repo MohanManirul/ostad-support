@@ -1,58 +1,7 @@
 <?php
-/* Login Task
- * User Name Validation
- * Password Validation
- * User Name and Password Validation
- * User Login
- */ 
- 
 
- 
-function userLogin($userName, $password){
-    if(validUserName($userName)){
-        echo "Fail User Name";
-    } elseif(validPassword($password)){
-        echo "Fail Password";
-    } elseif(!matching($userName, $password)){
-        echo "Username and Password not matching";
-    } else{
-        login();
-    }
-}
+ini_set("display_errors",0);
+ini_set("log_errors",1);
+ini_set("error_log", dirname(__FILE__).'/error_log.txt');
 
-
-
-
-
-
-
-function validUserName($userName){
-    if(empty($userName)){ // error here empty($userName) hobe
-        return true;
-    } else{
-        return false;
-    }
-}
-
-function validPassword($password){
-    if(empty($password)){
-        return true;
-    } else{
-        return false;
-    }
-}
-
-function matching($userName, $password){
-    if($userName == "Admin" && $password == "123"){
-        return true;
-    } else{
-        return false;
-    }
-}
-
-function login(){
-    echo "Login Successfully";
-}
-
-
-userLogin("Admin", "123");
+$con = mysqli_connect( "sdf", "sf" , "st" , "sdf" ) ;

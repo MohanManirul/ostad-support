@@ -1,0 +1,9 @@
+[16-Oct-2024 09:09:25 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sdf failed: No such host is known.  in C:\laragon\www\support\index.php on line 7
+[16-Oct-2024 09:09:25 UTC] PHP Stack trace:
+[16-Oct-2024 09:09:25 UTC] PHP   1. {main}() C:\laragon\www\support\index.php:0
+[16-Oct-2024 09:09:25 UTC] PHP   2. mysqli_connect($hostname = 'sdf', $username = 'sf', $password = '[Sensitive Parameter]', $database = 'sdf') C:\laragon\www\support\index.php:7
+[16-Oct-2024 09:09:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sdf failed: No such host is known.  in C:\laragon\www\support\index.php:7
+Stack trace:
+#0 C:\laragon\www\support\index.php(7): mysqli_connect('sdf', 'sf', Object(SensitiveParameterValue), 'sdf')
+#1 {main}
+  thrown in C:\laragon\www\support\index.php on line 7
