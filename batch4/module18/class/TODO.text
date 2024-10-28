@@ -1,0 +1,47 @@
+1. Pagination
+    - client side pagination (Vue JS)
+    - server side pagination (Laravel) 10,20,30,50,100
+    - simplePaginate()
+    - paginate()
+
+
+2. Union
+
+3. Ordering
+    - asc
+    - desc
+    - inRandom() first()
+    - latest()
+    - oldest()
+
+4. Grouping
+   - config/database.php strict=false
+   - groupBy()
+   - having()
+
+6. Are we going to use query builder -
+    - most complex case query builder
+    - A-Z  query builder
+    - A-Z no query builder
+    - For understanding (ELOQUENT ORM)
+    - Rapid Development query builder
+    - When your database design is bad you must use query builder
+
+
+7. Behind the scene
+   -Code-->Laravel function--> Convert------>Raw SQL-->
+   Database Sever Execute-> output--> controller-----> Return----->json-->json output
+
+8. You can develop your own query builder if wants to work
+
+
+9. Query Builder Only Works Over Table
+
+
+10. findOrFail() this is not working in Query Builder
+
+
+
+
+
+
