@@ -5,7 +5,7 @@ class DailyAccount{
     private $total = 0;
 
     function addItem($name, $cost){
-        $this->total += $cost;
+        $this->total += $cost ;
         if($this->total > $this->deposit){
             echo "Error: You don't have enough balance.\n";
             $this->total -= $cost;
@@ -31,5 +31,5 @@ $dailyAccount->addItem("Kacha Morich", 100);
 $dailyAccount->addItem("Alu", 50);
 $dailyAccount->addItem("Dim", 180);
 $dailyAccount->addItem("Murgi", 300);
-$dailyAccount->addItem("Ghee", 800);
+$dailyAccount->addItem("Ghee", 900);
 $dailyAccount->createReport();

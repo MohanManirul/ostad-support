@@ -1,9 +1,8 @@
 <?php
 
-// $a = readline('Enter a string: '); 
-  
-// For output 
-// echo $a; 
+$a = readline('Enter a string: '); 
+
+echo $a; 
 
 
 
@@ -12,14 +11,14 @@
 // echo "You entered: " . trim($input) . "\n"; // Display the input
 
 
-echo "Enter your name and age (e.g., John 25): ";
-$input = fgets(STDIN); // Read input from the console
+// echo "Enter your name and age (e.g., John 25): ";
+// $input = fgets(STDIN); // Read input from the console
 
-// Use sscanf to parse the input
-sscanf($input, "%s %d", $name, $age);
+// // Use sscanf to parse the input
+// sscanf($input, "%s %d", $name, $age);
 
-echo "Name: " . $name . "\n";
-echo "Age: " . $age . "\n";
+// echo "Name: " . $name . "\n";
+// echo "Age: " . $age . "\n";
 
 
 ?>

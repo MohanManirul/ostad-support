@@ -1,7 +1,14 @@
 <?php 
 class MileageCalculator{
-   
-    public function __construct(public $pricePerLitre, public $distance, public $totalFuelPrice){}
+    public $pricePerLitre;
+    public $distance;
+    public $totalFuelPrice;
+
+    public function __construct($pricePerLitre, $distance, $totalFuelPrice , $vehicleType){
+        $this->pricePerLitre = $pricePerLitre;
+        $this->distance = $distance;
+        $this->totalFuelPrice = $totalFuelPrice;
+    }
 
     function calculateKMPL(){
         $totalFuel = $this->totalFuelPrice / $this->pricePerLitre;
