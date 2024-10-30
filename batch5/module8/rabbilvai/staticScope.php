@@ -1,17 +1,15 @@
 <?php
 
-//In PHP, you cannot declare a class itself as static. However, you can have static properties and methods within a class. 
-
 class ParentClass {
-    public static $myStaticProperty = 'Hello, World! \n';
 
-      static function myStaticMethod() {
+    public static $myStaticProperty = 'Hello, World! \n';
+    private $name ;
+
+       static function myStaticMethod() {
+       // echo $this->name = "Sidratul Muntaha Munazareen \n" ; //cann't accessible beacuse myStaticMethod() is a static method
         echo "This is a parent static method.  \n";
     }
 }
-
-echo ParentClass::$myStaticProperty;
-echo ParentClass::myStaticMethod();
 
 class ChildClass extends ParentClass {
     
@@ -23,7 +21,7 @@ class ChildClass extends ParentClass {
     
 }
 
-// Usage
+ChildClass::myStaticMethod(); // called statically
+
 $object = new ChildClass();
-$object->myStaticMethod();  // This will not work due to the error
-?>
+$object->myStaticMethod(); 
