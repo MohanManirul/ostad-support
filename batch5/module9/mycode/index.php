@@ -14,6 +14,8 @@ while($line = fgets($fp,5)){
     echo $line."-" ;
 }
   
+$data = file($filename);
+print_r($data);
 
 
 
