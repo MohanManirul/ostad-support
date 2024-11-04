@@ -11,6 +11,12 @@ use Illuminate\Support\Facades\DB;
 
 class DemoController extends Controller
 {
+   
+   public function addData(){
+    return "ok";
+        return Category::all();
+   }
+   
     //
     function demo1()
     {

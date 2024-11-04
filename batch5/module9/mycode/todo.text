@@ -1,0 +1,47 @@
+1. What is JSON
+2. PHP JSON Encode=Associative Array--->JSON
+    - Single Dimention Array to JSON Object
+    - Multi  Dimention Array to JSON Array 
+
+3. PHP JSONString Decode=JSONString--->Associative Array
+    -  JSON Object to  Single Dimention Array
+    -  JSON Array to   Multi Dimention Array
+
+-----------------------------------------------------
+
+1. What is SESSION? 
+2. Use Case- Auth?
+3. Store in SESSION
+4. Retrive from SESSION
+5. Remove from SESSION
+
+-----------------------------------------------------
+
+
+1. What is COOKIES? 
+2. Use Case- Auth,token,csrf ?
+3. Store in COOKIES
+4. Retrive from COOKIES
+5. Remove from COOKIES
+
+--------------------------------------------------
+
+
+TYPES OF ERROR
+1. Parse Error (Syntax Error)
+2. Fatal Error
+3. Warning Error
+4. Notice Error
+5. Strict Error
+6. User Errors
+
+
+
+--------------------------------------------------
+
+ERROR HANDLE
+Where to? 
+Database,File Access,Networking
+
+
+

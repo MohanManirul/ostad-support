@@ -9,7 +9,6 @@ class Gadha{
         print_r($arguments);
     }
 
-
 }
 
 $objGadha= new Gadha();

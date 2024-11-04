@@ -3,6 +3,9 @@
 use App\Http\Controllers\DemoController;
 use Illuminate\Support\Facades\Route;
 
+Route::get("/all-data",[DemoController::class,'addData']);
+
+
 Route::get("/demo1",[DemoController::class,'demo1']);
 
 Route::post("/demo2",[DemoController::class,'demo2']);
