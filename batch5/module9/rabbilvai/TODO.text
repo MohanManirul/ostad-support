@@ -1,0 +1,22 @@
+TYPES OF ERROR
+
+- Parse Error (Syntax Error)
+- Fatal Error
+- Warning Error
+- Notice Error
+- Deprecated Error
+- User Errors
+
+
+
+ERROR HANDLE
+- try
+- catch
+- error log
+
+
+File Module
+- Read a file
+- Write a file 
+- Append a file 
+- Delete a File

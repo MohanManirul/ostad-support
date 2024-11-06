@@ -1,0 +1,8 @@
+display_error off production server e  rakhbo
+display_error on development server e  rakhbo
+
+php file ei o ini_set("display_errors",0); rakhte pari 
+s
+
+
+
