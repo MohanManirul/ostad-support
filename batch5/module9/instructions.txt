@@ -5,4 +5,5 @@ php file ei o ini_set("display_errors",0); rakhte pari
 s
 
 
-
+inplode, explode , file_put_contents , file_get_contents
+json_encode , json_decode ,

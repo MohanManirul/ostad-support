@@ -1,14 +1,15 @@
 <?php 
 session_start();
-$user = $_SESSION['user'] ?? null;
-echo $_SESSION['user'] ;
+$user = $_SESSION['username'] ?? null;
+echo $_SESSION['username'] ;
 if($user){
     header("location:index.php");
     exit();
 }
 
 if(isset($_POST['name']) && isset($_POST['password'])){
-    $name = $_POST['name'];
+   echo $name = $_POST['name'];
+
     $password = $_POST['password'];
     if($name == 'admin' && $password == '123456'){
         $_SESSION['user'] = $name;
