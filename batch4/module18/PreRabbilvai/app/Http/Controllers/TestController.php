@@ -118,19 +118,19 @@ class TestController extends Controller
 
 
         // জয়েন= ছেলের বাড়ি + মেয়ে + ছেলে
-        // $result= DB::table('products')
-        //     ->leftJoin('categories','products.category_id', '=','categories.id')
-        //     ->leftJoin('brands','products.brand_id','=','brands.id')
-        //     ->get();
+        $result= DB::table('products')
+            ->leftJoin('categories','products.category_id', '=','categories.id')
+            ->leftJoin('brands','products.brand_id','=','brands.id')
+            ->get();
 
 
 
 
         // জয়েন= ছেলের বাড়ি + মেয়ে + ছেলে
-        // $result= DB::table('products')
-        //     ->rightJoin('categories','products.category_id', '=','categories.id')
-        //     ->rightJoin('brands','products.brand_id','=','brands.id')
-        //     ->get();
+        $result= DB::table('products')
+            ->rightJoin('categories','products.category_id', '=','categories.id')
+            ->rightJoin('brands','products.brand_id','=','brands.id')
+            ->get();
 
 
 
@@ -190,11 +190,11 @@ class TestController extends Controller
         // The issue with your code is that count() returns an integer, not a query builder instance. Once you call count(), it terminates the query, so you can't chain get() after it. Additionally, you don't need get() when using count() because it already provides the count of grouped records.
         
         
-        // $result = DB::table('products')
-        //         ->select('price')
-        //         ->groupBy('price')
-        //         ->get()
-        //         ->count();
+        $result = DB::table('products')
+                ->select('price')
+                ->groupBy('price')
+                ->get()
+                ->count();
 
         // where , having , groupBy , aggregate function
 

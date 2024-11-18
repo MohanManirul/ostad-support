@@ -1,0 +1,7 @@
+https://getcomposer.org/download/
+https://packagist.org/
+https://getcomposer.org/doc/00-intro.md#using-the-installer
+composer global require laravel/installer
+composer create-project laravel/laravel blog
+php artisan serve
+laravel new blog
