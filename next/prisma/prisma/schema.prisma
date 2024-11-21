@@ -13,6 +13,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum UserType{
+  ADMIN
+  USER
+}
 model Users{
   id            Int   @id @default(autoincrement())
   email         String   @unique
@@ -44,7 +48,7 @@ model Users{
   col13 BigInt @default(10) //Default Value 10 Big Integer length 20  Equivalent Column
 
   col14 BigInt @unique  //Unique Big Integer length 20  Equivalent Column
-
+  role  UserType
 }
 
 
@@ -59,3 +63,4 @@ model Post {
 
   createdAt    DateTime @default(now())
 }
+
