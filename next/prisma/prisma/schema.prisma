@@ -62,5 +62,10 @@ model Post {
   col5          String @db.TinyText
 
   createdAt    DateTime @default(now())
+   col1 DateTime @db.Date // Date Equivalent Column
+  col2 DateTime @db.DateTime  // DateTime Equivalent Column
+  col7 DateTime @db.Timestamp // 	Timestamp  Equivalent Column Default current_timestamp() 	
+  col8 DateTime @db.Time // Time Equivalent Column
+  col6 DateTime  // DateTime Length 3 Equivalent Column
 }
 
