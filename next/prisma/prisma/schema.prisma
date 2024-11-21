@@ -49,9 +49,13 @@ model Users{
 
 
 model Post {
-  id           String   @id @default(uuid())
-  title        String
-  phone        String
-  content     String
+  id            String   @id @default(uuid())
+  title         String
+  phone         String // default length is 191
+  content       String? //for nullable
+  col3          String @default("Bangladesh")
+  col4          String @db.VarChar(100) // 100 characters
+  col5          String @db.TinyText
+
   createdAt    DateTime @default(now())
 }
