@@ -49,6 +49,17 @@ model Users{
 
   col14 BigInt @unique  //Unique Big Integer length 20  Equivalent Column
   role  UserType
+  Profile Profile? // ? =one to one relationship
+  // Profile Profile[] // ? =one to many relationship
+
+}
+
+
+model Profile{
+  id      Int   @id @default(autoincrement())
+  fname   String 
+  userId Int
+  user Users @relation(fields: [userId],references: [id],onDelete: Restrict,onUpdate: Cascade)
 }
 
 
