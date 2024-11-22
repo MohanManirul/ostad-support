@@ -58,7 +58,7 @@ model Users{
 model Profile{
   id      Int   @id @default(autoincrement())
   fname   String 
-  userId Int
+  userId Int @unique
   user Users @relation(fields: [userId],references: [id],onDelete: Restrict,onUpdate: Cascade)
 }
 
@@ -80,13 +80,7 @@ model Post {
   col6 DateTime  // DateTime Length 3 Equivalent Column
 }
 
-model Profile {
 
-  id Int @id @default(autoincrement()) // Primary key  , Integer length 11  & Auto Increment Equivalent Column
-  col1 Boolean // Boolean Equivalent Column
-  col3 String @db.Char(100) // Char Length 100 Equivalent Column
-
-}
 
 model Images {
 
