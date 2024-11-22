@@ -109,7 +109,6 @@ model Images {
   col2 Bytes @db.LongBlob // Long Blob Equivalent Column
   col3 Bytes @db.TinyBlob // Tiny Blob Equivalent Column
   col4 Bytes @db.MediumBlob // Medium Blob Equivalent Column
-  col5 Bytes @db.Binary(100)  // Binary Equivalent Column
-  col6 Bytes @db.VarBinary(100) // Var Binary Equivalent Column
+
 }
 
