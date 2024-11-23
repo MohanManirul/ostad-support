@@ -13,9 +13,13 @@
     <p>{{ $title }}</p>
     <p>demo with alpine js</p>
 
+
+
     <div x-data="data">
         <p x-text="message"></p>
         <p x-text="date"></p>
+
+        <button @click="date='14th december 2025'" class="clcik">Click Me !</button>
     </div>
 
     <script>
