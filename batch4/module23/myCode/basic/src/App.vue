@@ -2,24 +2,14 @@
   
 import {getData} from "./data/data.js";
 
-const images = [
+const image = 
       {
-        image :"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg",
-        'title':"dird one",
-        'descriptions':"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg"
-      },
-      {
-        image :"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg",
-        'title':"dird one",
-        'descriptions':"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg"
-      },
-      {
-        image :"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg",
+        src :"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg",
         'title':"dird one",
         'descriptions':"https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg"
       }
 
-  ];
+  ;
 
 
 </script>
@@ -29,7 +19,8 @@ const images = [
   <h2>{{getData.firstName}} - {{getData.lastName}}</h2>
   <h2>{{getData.tasks[1]}}</h2>
   <div>
-    <img v-bind:title="images[0].title" src="https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners-450x336.jpg">
+    <img  v-bind="image" >
+    <p>hi</p>
   </div>
 </template>
 
