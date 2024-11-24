@@ -46,7 +46,7 @@ const weather = 'pc'
       <h1>group pc</h1>
       <h1>group pc</h1>
     </template>
-
+<!-- template sudhu matro if er jonno -->
 
   </div>
 </template>
@@ -54,4 +54,5 @@ const weather = 'pc'
 <style scoped>
 
 </style>
+
  
