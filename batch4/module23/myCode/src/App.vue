@@ -8,6 +8,8 @@ const animal = "Tiger" ;
 const searchUrl = '<strong>https://www.pexels.com/search/</strong>'
 const date = '<strong>30 th july 2024</strong>'
 
+const weather = 'rdd'
+
 </script>
 
 <template>
@@ -24,6 +26,11 @@ const date = '<strong>30 th july 2024</strong>'
       <a :href="`https://www.pexels.com/search/${animal.toLowerCase()}`">Search for {{ animal }}</a>
     </p>
     <p v-html="date"></p>
+    <p v-if="weather ==='s'">Sunny</p>
+    <p v-else-if="weather ==='pc'">partly sunny</p>
+    <p v-else-if="weather ==='r'">rainy</p>
+    <p v-else-if="weather ==='t'">thunder storm</p>
+    <p v-else>nothing</p>
   </div>
 </template>
 
