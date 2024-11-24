@@ -5,7 +5,9 @@ import {getData} from "./data/data.js";
 const number = 16 ;
 
 const animal = "Tiger" ;
-const searchUrl = 'https://www.pexels.com/search/'
+const searchUrl = '<strong>https://www.pexels.com/search/</strong>'
+const date = '<strong>30 th july 2024</strong>'
+
 </script>
 
 <template>
@@ -21,9 +23,11 @@ const searchUrl = 'https://www.pexels.com/search/'
     <p>
       <a :href="`https://www.pexels.com/search/${animal.toLowerCase()}`">Search for {{ animal }}</a>
     </p>
+    <p v-html="date"></p>
   </div>
 </template>
 
 <style scoped>
 
 </style>
+ 
