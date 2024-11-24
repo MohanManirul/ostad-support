@@ -8,7 +8,7 @@ const animal = "Tiger" ;
 const searchUrl = '<strong>https://www.pexels.com/search/</strong>'
 const date = '<strong>30 th july 2024</strong>'
 
-const weather = 'rdd'
+const weather = 'pc'
 
 </script>
 
@@ -20,7 +20,7 @@ const weather = 'rdd'
     <p>{{ number }} / 4 = {{ number/4 }}</p>
     <p>{{ number }}  is {{ number %2 ==0 ? "Even" : "Odd" }}</p>
     <p>
-      <a :href="searchUrl+animal">Search for {{ animal }}</a>
+      <a :href="searchUrl+animal"> Search for {{ animal }}</a>
     </p>
     <p>
       <a :href="`https://www.pexels.com/search/${animal.toLowerCase()}`">Search for {{ animal }}</a>
@@ -31,6 +31,23 @@ const weather = 'rdd'
     <p v-show="weather ==='r'">rainy</p>
     <p v-show="weather ==='t'">thunder storm</p>
     <p v-show="weather ==='tff'">nothing</p>
+
+    <div v-if="weather ==='s'">
+      <h1>group 1</h1>
+      <h1>group 1</h1>
+      <h1>group 1</h1>
+      <h1>group 1</h1>
+    </div>
+
+
+    <template v-if="weather ==='pc'">
+      <h1>group pc</h1>
+      <h1>group pc</h1>
+      <h1>group pc</h1>
+      <h1>group pc</h1>
+    </template>
+
+
   </div>
 </template>
 
