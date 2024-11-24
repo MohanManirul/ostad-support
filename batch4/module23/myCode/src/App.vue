@@ -26,11 +26,11 @@ const weather = 'rdd'
       <a :href="`https://www.pexels.com/search/${animal.toLowerCase()}`">Search for {{ animal }}</a>
     </p>
     <p v-html="date"></p>
-    <p v-if="weather ==='s'">Sunny</p>
-    <p v-else-if="weather ==='pc'">partly sunny</p>
-    <p v-else-if="weather ==='r'">rainy</p>
-    <p v-else-if="weather ==='t'">thunder storm</p>
-    <p v-else>nothing</p>
+    <p v-show="weather ==='s'">Sunny</p>
+    <p v-show="weather ==='pc'">partly sunny</p>
+    <p v-show="weather ==='r'">rainy</p>
+    <p v-show="weather ==='t'">thunder storm</p>
+    <p v-show="weather ==='tff'">nothing</p>
   </div>
 </template>
 
