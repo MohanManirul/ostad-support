@@ -1,15 +1,25 @@
 <script setup>
-const bgPrimary = 'bg-primary';
-const bgSuccess = 'bg-success';
-const bgWarning = 'bg-warning';
+const bgPrimary = 'bg-primary bg-gradient text-white p-3 d-inline-block';
+const bgSuccess = 'bg-success bg-gradient text-white p-3 d-inline-block';
+const bgWarning = 'bg-danger bg-gradient text-white p-3 d-inline-block';
+
+const colors = {
+    borderColor : 'rgba(20,184,166,1)',
+    color : 'rgba(19,78,74,1)',
+    backgroundColor : 'rgba(19,78,74,1)'
+}
+
+const weekend = false ;
+
+
 </script>
 
 <template>
 
     <div class="container">
-      <div class="bg-primary bg-gradient text-white p-3 d-inline-block">Primary Gradient</div>
-      <div class="bg-success bg-gradient text-white p-3 d-inline-block">Success Gradient</div>
-      <div class="bg-danger bg-gradient text-white p-3 d-inline-block">Danger Gradient</div>
+      <div :class="weekend==true?bgPrimary:bgWarning">Primary Gradient</div>
+      <div :class="bgSuccess">Success Gradient</div>
+      <div :class="bgWarning">Danger Gradient</div>
     </div>
 
 </template>
