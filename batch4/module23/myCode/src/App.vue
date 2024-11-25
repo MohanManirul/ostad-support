@@ -1,38 +1,19 @@
 <script setup>
-  
-import {getData} from "./data/data.js";
-
-const number = 16 ;
-
-const animal = "Tiger" ;
-const searchUrl = '<strong>https://www.pexels.com/search/</strong>'
-const date = '<strong>30 th july 2024</strong>'
-
-const weather = 'pc'
-
-const Btn = "btn btn-success"
-const BtnDanger = "btn btn-danger"
-const Boolean = false
+const bgPrimary = 'bg-primary';
+const bgSuccess = 'bg-success';
+const bgWarning = 'bg-warning';
 </script>
 
 <template>
-  <h2>Hello</h2>
-  <h2>{{getData.firstName}} - {{getData.lastName}}</h2>
-  <h2>{{getData.tasks[1]}}</h2>
-  <div>  
 
-
-    <template v-if="weather ==='pc'">
-      <div class="container">
-        <h1 class="text-center">Bootstrap in Vue with NPM</h1>
-        <button :class="Btn" >Submit</button>
-        <button :class="[Boolean?'btn btn-success':'btn btn-danger', Boolean?'fw-bold':'text-muted']" >Submit</button>
+    <div class="container">
+      <div class="bg-primary bg-gradient text-white p-3 d-inline-block">Primary Gradient</div>
+      <div class="bg-success bg-gradient text-white p-3 d-inline-block">Success Gradient</div>
+      <div class="bg-danger bg-gradient text-white p-3 d-inline-block">Danger Gradient</div>
     </div>
-    </template>
-<!-- template sudhu matro if er jonno project-files-structure preparing-our-project-for-work -->
 
-  </div>
 </template>
+
 
 <style scoped>
 
