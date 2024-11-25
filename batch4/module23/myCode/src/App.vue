@@ -11,6 +11,8 @@ const date = '<strong>30 th july 2024</strong>'
 const weather = 'pc'
 
 const Btn = "btn btn-success"
+const BtnDanger = "btn btn-danger"
+const Boolean = false
 </script>
 
 <template>
@@ -24,6 +26,7 @@ const Btn = "btn btn-success"
       <div class="container">
         <h1 class="text-center">Bootstrap in Vue with NPM</h1>
         <button :class="Btn" >Submit</button>
+        <button :class="Boolean?'btn btn-success':'btn btn-danger'" >Submit</button>
     </div>
     </template>
 <!-- template sudhu matro if er jonno project-files-structure preparing-our-project-for-work -->
