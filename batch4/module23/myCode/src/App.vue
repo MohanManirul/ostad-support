@@ -26,7 +26,7 @@ const Boolean = false
       <div class="container">
         <h1 class="text-center">Bootstrap in Vue with NPM</h1>
         <button :class="Btn" >Submit</button>
-        <button :class="Boolean?'btn btn-success':'btn btn-danger'" >Submit</button>
+        <button :class="[Boolean?'btn btn-success':'btn btn-danger', Boolean?'fw-bold':'text-muted']" >Submit</button>
     </div>
     </template>
 <!-- template sudhu matro if er jonno project-files-structure preparing-our-project-for-work -->
