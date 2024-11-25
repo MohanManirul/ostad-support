@@ -41,10 +41,10 @@ const weather = 'pc'
 
 
     <template v-if="weather ==='pc'">
-      <h1>group pc</h1>
-      <h1>group pc</h1>
-      <h1>group pc</h1>
-      <h1>group pc</h1>
+      <div class="container">
+        <h1 class="text-center">Bootstrap in Vue with NPM</h1>
+        <button class="btn btn-success">Submit</button>
+    </div>
     </template>
 <!-- template sudhu matro if er jonno project-files-structure preparing-our-project-for-work -->
 
