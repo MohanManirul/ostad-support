@@ -9,6 +9,9 @@ const colors = {
     backgroundColor : 'rgba(19,78,74,1)'
 }
 
+const fwBold = 'fw-bold';
+const fstItalic = 'fst-italic';
+
 const weekend = false ;
 
 
@@ -17,7 +20,7 @@ const weekend = false ;
 <template>
 
     <div class="container">
-      <div :class="weekend==true?bgPrimary:bgWarning">Primary Gradient</div>
+      <div :class="weekend==true?[bgPrimary,fwBold]:[bgWarning,fstItalic]">Primary Gradient</div>
       <div :class="bgSuccess">Success Gradient</div>
       <div :class="bgWarning">Danger Gradient</div>
     </div>
