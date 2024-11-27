@@ -1,0 +1,35 @@
+# New Project: composer create-project laravel/laravel example-app
+# New Controller: php artisan make:controller DemoController
+
+That is the in depth topics of Laravel Request And Response
+
+Laravel Response:
+1. Response Type String
+2. Response Type Int
+3. Response Type Null
+4. Response Type Boolean
+5. Response Type Array
+6. Response Type Associative Array
+7. Response Type JSON
+8. Response Status Code Manupulation
+9. Response Redirect
+10. Binary File Response
+11. File Download Response
+12. Response View
+
+Laravel Request
+0. For Practice Off the CSRF Property
+1. Method GET,POST,PUT,PATCH,DELETE
+2. Request Query String
+3. Request Params
+4. Request JSON Body
+5. Request Header
+6. Request form-data
+7. Request form-data for file upload
+8. Request IP Address catch
+
+
+
+
+
+

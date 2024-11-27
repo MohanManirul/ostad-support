@@ -19,16 +19,19 @@
         <p x-text="message"></p>
         <p x-text="date"></p>
 
-        <button @click="date='14th december 2025'" class="clcik">Click Me !</button>
+        <button @click="open=false" class="click">Hide</button>
+        <button @click="date=true" class="click">Show</button>
+
+        <div x-show="open" style="height: 200px; width:500px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla inventore maiores id? Minima, fugit voluptate quibusdam, ullam, perspiciatis asperiores similique doloribus qui alias quaerat quae.</p>
+        </div>
     </div>
 
     <script>
        
         const data = {
             
-            message: 'Hello from Alpine.js',
-            date: '15 nov 2024',
-           
+            open:false
                  
         }
     </script>

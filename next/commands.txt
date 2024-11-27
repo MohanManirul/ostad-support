@@ -1,0 +1,10 @@
+
+
+
+prisma
+------
+1. npx create-next-app@latest
+2. npm install prisma --save-dev
+3. npx prisma init --datasource-provider mysql (create a prisma folder and schema.prisma ekhanei table er defination thakbe)
+4. prisma extension install korte hbe vscode e
+5. npx prisma migrate dev

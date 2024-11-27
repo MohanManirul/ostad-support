@@ -1,0 +1,26 @@
+১। নিজে নিজে যখন প্রাকটিস করবেন ইউজ লারাভেল-১০
+২। আপনি যখন ভিডিও দেখে প্রাকটিস করবেন ইউজ লারাভেল-১০
+৩। লাইভ ক্লাসে আমরা ইউজ করবো  লারাভেল-১০-১১
+৪। আমাদের মেইন ফোকাস থাকবে লারাভেল শেখাতে, নট ভার্সন ।
+
+লারাভেল-১১
+composer create-project laravel/laravel example-app
+
+লারাভেল-১০
+composer create-project laravel/laravel:^10.0 example-app
+
+লারাভেল-০৯
+composer create-project laravel/laravel:^9.0 example-app
+
+লারাভেল-08
+composer create-project laravel/laravel:^8.0 example-app
+
+
+৬। ওয়েব এপ্লিকেশন টার্মস
+
+৭। লারাভেল ফুল-স্ট্যাক = ফ্রন্ট-ইন্ড + ব্যাক-ইন্ড M V C
+
+M=Back End
+C=Back End
+V=Front End
+

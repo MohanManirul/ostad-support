@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <NextTopLoader color="#269669" height={3} speed={200} />
+      <NextTopLoader color="#269669" height={3} speed={200} options={{showSpinner:false}}/>
       <SiteNavBar/>
       {children}
       <SiteFooter/>
