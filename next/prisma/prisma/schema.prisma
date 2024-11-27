@@ -17,6 +17,7 @@ enum UserType{
   ADMIN
   USER
 }
+
 model Users{
   id            Int   @id @default(autoincrement())
   email         String   @unique
@@ -52,6 +53,7 @@ model Users{
   Profile Profile? // ? =one to one relationship
   Post Post[] // ? =one to many relationship
   Comment Comment[] // ? =one to many relationship
+  Invoice Invoice[] 
 
 }
 
@@ -100,6 +102,25 @@ model Comment{
 
 
 
+model Invoice {
+  id      Int    @id @default(autoincrement())
+  user_id Int
+  Users    Users   @relation(fields: [user_id], references: [id], map: "invoices_user_id_foreign")
+}
+
+model Student {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  courses   Course[] @relation("StudentCourses")  // Ensure the relation name is consistent
+}
+
+model Course {
+  id        Int      @id @default(autoincrement())
+  title     String
+  students  Student[] @relation("StudentCourses")  // Use the same relation name here
+}
+
 
 
 model Images {
@@ -111,4 +132,6 @@ model Images {
   col4 Bytes @db.MediumBlob // Medium Blob Equivalent Column
 
 }
+
+
 
