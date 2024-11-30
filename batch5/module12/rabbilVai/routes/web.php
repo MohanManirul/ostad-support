@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {return view('welcome');});
 
 // Laravel Response Types
-Route::get('/demo1', [DemoController::class, 'demo1']);
+Route::post('/demo1', [DemoController::class, 'demo1']);
 
 // Laravel Request Types
 Route::get('/demo2/{name}/{city}', [DemoController::class, 'demo2']);

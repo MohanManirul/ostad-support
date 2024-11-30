@@ -7,7 +7,16 @@ use function Illuminate\Events\queueable;
 
 class DemoController extends Controller
 {
-        function demo1(){
+        function demo1(Request $request){
+
+                $myFile=$request->file('phot');
+                $myFile->move(public_path('upload'),$myFile->getClientOriginalName());
+                return "Success";
+
+                $myFile=$request->file('photo');
+                $myFile->getClientOriginalName()
+        
+         
            // return "Hello";
            //return 100;
            //return null;
