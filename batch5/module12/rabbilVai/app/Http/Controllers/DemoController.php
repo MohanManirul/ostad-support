@@ -9,7 +9,7 @@ class DemoController extends Controller
 {
         function demo1(Request $request){
 
-                $myFile=$request->file('phot');
+                $myFile=$request->file('photo');
                 $myFile->move(public_path('upload'),$myFile->getClientOriginalName());
                 return "Success";
 
