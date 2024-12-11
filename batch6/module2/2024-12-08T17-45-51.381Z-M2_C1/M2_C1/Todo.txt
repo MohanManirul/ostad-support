@@ -1,0 +1,18 @@
+# Extra Topics Before actual class
+Operators(Arithmatic, Logical, Comparison)
+Incrementor/Decrementor
+-----------------------
+# Loops
+Why What How PHP Loop
+For Loop
+While Loop
+Do...While Loop
+Foreach Loop
+Continue
+Break
+---------
+# Function
+Why How What is function
+Built-in Functions
+User-defined Functions
+-------------
